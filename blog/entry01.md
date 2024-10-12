@@ -10,6 +10,6 @@ The topic that I have decided on was music because i feel like music is a good w
 
  ### Skills
  ---
- Some skills I have are good communications skills and good time management. When faced with a problem I try my best to solve it by expressing my thoughts clearly, I also am willing to consider new ideas and opinions, understanding both perspectives. I consider myself as someone who has good time management because I have alarms scheduled for certain tasks so when I know I have an important assignment or homework, I will put it in my notes so I know I will go back to do it and hand it in, on time. So I focus on high priority tasks and set clear goals by breaking them into smaller ones. This helps me accomplish them easier and faster.
+ Some skills I have are good communications skills and good time management. When faced with challenges, I try my best to express my thoughts clearly and willing to consider new ideas, opinions and perspectives allowing me to understand a different viewpoint. I consider myself as someone who has good time management because I set alarms and reminders for important assignments and organize my priorities effectively. I also create detailed notes so I can stay on track and male sire that I will complete everything on time. So I focus on high priority tasks and set clear goals by breaking them into smaller ones , which helps me stay focused and accomplish them easier and faster.
 [Next](entry02.md)
 [Home](../README.md)
