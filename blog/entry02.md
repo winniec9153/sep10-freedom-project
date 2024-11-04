@@ -22,7 +22,13 @@ Miscellaneous percussion
   * To keep rhythm and make special sounds
   * Add color and excitement    
 
-Also by using Ai(Chat GPT), I found these hardware tools I never knew existed. Some examples are Innovative instruments, which are like Specialized Audio Interfaces, Unique Synthesizers, Drum Machines and Samplers, Effects Processors, Field Recorders, MIDI Controllers, etc. These pieces of hardware represent just a glimpse into the vast world of music equipment beyond the mainstream. They can inspire creativity and enhance our music-making process. 
+Also by using Ai(Chat GPT), I found these hardware tools I never knew existed. Some examples are Innovative instruments, Specialized Audio Interfaces, Unique Synthesizers, Drum Machines and Samplers, Effects Processors, Field Recorders, MIDI Controllers, etc. These pieces of hardware represent just a glimpse into the vast world of music equipment beyond the mainstream. They can inspire creativity and enhance your music-making process.
+
+
+
+
+
+
 
 
 
