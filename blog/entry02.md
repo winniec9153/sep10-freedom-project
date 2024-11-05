@@ -23,7 +23,8 @@ In this entry, I was asked to researching about the software and hardware connec
   
 Also by using Ai(Chat GPT), I found these hardware tools I never knew existed. Some examples are Innovative instruments, Specialized Audio Interfaces, Unique Synthesizers, Drum Machines and Samplers, Effects Processors, Field Recorders, MIDI Controllers, etc. These pieces of hardware represent just a glimpse into the vast world of music equipment beyond the mainstream. They can inspire creativity and enhance your music-making process.
 
-
+#### Engineering Design process 
+Right now I am currently on the stage of researching about the hardware and soft-ware technoligies connected to music. I got down the basic of what hardware is used and how software is an essentail in the music production.
 
 
 
