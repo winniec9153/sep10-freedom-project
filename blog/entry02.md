@@ -30,7 +30,7 @@ Right now I am currently on the stage of researching about the hardware and soft
 
 #### Skills: 
 ---
-My skill had progress from the last time I wrote my blog. Now I have a better understanding on _CSS_ as I now know the basic of _CSS_ and _HTML_, knowing how to style my HTML code. 
+My skill had progress from the last time I wrote my blog. Now I have a better understanding on _CSS_ as I now know the basic of _CSS_ and _HTML_, knowing how to style my HTML code. I also improved my researching skills,
 
 
 
