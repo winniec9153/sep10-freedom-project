@@ -1,4 +1,4 @@
-# Entry 2:Information gathered on my topic (music)
+# Entry 2: Information gathered on my topic (music)
 ##### 11/4/24
 
 #### Researching about music 
