@@ -1,5 +1,5 @@
 # Entry 3
-##### 12/17/24
+##### 12/18/24
 ### Content:
 **Brainstorming Part B:**  
 I've been working on my freedom project for SEP, working on Part B which is thinking about innovations that have not been discovered yet by other people. My topic Is Music so I did some research to see the problems people face in music production. In [aulart](https://www.aulart.com/blog/6-solutions-to-pain-points-in-music-production/?srsltid=AfmBOoo9_ALKiJJ3M5eHyegPsCbPYNZ6P1uPkl7tFDKQm8Toh1xMocdc) it discusses the problem people face is music production such as finding the perfect sound for a track as it can be a frustrating and time-consuming process. I noticed that many music creators or people in general have a hard time thinking of the right music and lyrics to express what they are feeling. So by using this information, I thought of this innovation which I call the "Brain wave music generator." This device connects to your brainwaves, allowing you to compose music directly by thinking. The device would interpret your emotions, thoughts, and cognitive patterns and translate them into musical notes, rhythms, and arrangements. This could allow musicians to create complex compositions without needing traditional instruments or even their hands.
