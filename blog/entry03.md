@@ -9,7 +9,7 @@ We can do this by having a brain connected computer to pick up brain signals to 
 My topic Is Music so I did a FreedomProject Content of my topic to get ready to plan out for our website. We had to do Part A which is about tech invention about our topic. My topic is Music so i did research on Hardware and software technolgy related to music and I organized my software list through popularity. From 1 to be most well-known and the bottom is the least known among people. For hardware I organized it thorugh when the invention was first released. With the instrument being the oldest and the Hologram Microcosm being the most recent. For part B I had to think about music innovations that can be used in the music industry. I am doing this by using my creativity to think of one and brainstorming for future innovations related to Music.
 
 ### Engineering Design Process:   
-For my next steep in this engineering design process I am going to Imagine and find possible solution
+For my next steep in this engineering design process I am going to Imagine and find possible solution for problems in the music production industry. 
 ### Skills:
 Some skills I got  was researching skills as it became even more better than before. I had to research on problems people faced in the music industry/ production. I did alot of digging and use my creativity to think of an innovation that had not been discovered yet that might be benneficial in the music world. Another skill have is 
 
