@@ -21,8 +21,8 @@ The tool I have chosen to use is **[Animate.css](https://animate.style/#document
       </div>
     </body>
 ```
-### Making it go on repeat 
-So it was orginially `animate__repeat-3	3` and i changed it to `animate__infinite	infinite`
+### Making it go on repeat:  
+So it was orginially `animate__repeat-3	3` and I changed it to `animate__infinite	infinite`
 ![Screenshot 2025-03-01 171503](https://github.com/user-attachments/assets/2e0ac870-b1a3-47e9-9624-002127be2c45)
 ## Skills: 
 Based on this experience, I developed several skills. I learned how to use animation libraries, which gave me hands-on experience working with Animate.css. I also learned how to apply pre-built animations to elements. Additionally, I improved my problem-solving skills when I encountered a limitation with animate_repeat and found an alternative solution by using infinite to achieve the effect I wanted. Another skill I developed was enhancing my projects by exploring how animations make web projects more engaging and dynamic. Lastly, I gained experience using basic CSS to improve the visual effects of my code.  
