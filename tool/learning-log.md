@@ -7,7 +7,7 @@
 ### 3/7/25:
 * used [ Animate.css ](https://animate.style/) and read through it
 * watched a beginner tortial to get a better understanding [VIDEO](https://www.youtube.com/watch?v=VzbBcVRquYA)
-* I modified the code by changing the animation from "bounce" to "flash"
+* I modified the code by changing the animation from "`bounce`" to "`flash`"
     * allowing me to see how different effects function.
 * tried using animate_repeat to make it last longer
     * but I realised it can only do up to 3 times
