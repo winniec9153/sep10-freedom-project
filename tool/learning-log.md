@@ -45,9 +45,6 @@
 
    
 
-html
-Copy
-Edit
 
 
 <!--
