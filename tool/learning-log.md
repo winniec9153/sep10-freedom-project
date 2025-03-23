@@ -17,7 +17,7 @@
 
 
 ### 3/14/25:
-* I watch this  [VIde])(https://www.youtube.com/watch?v=S2KCXKAView) trying out the code they are doing using the animate.css
+* I watch this  [VIdeo])(https://www.youtube.com/watch?v=S2KCXKAView) trying out the code they are doing using the animate.css
 * through making the `class="animate__animated animate__slideInDown">` there will be a cool animation of the text sliding down
 * you can make it slide in from the left using `class="animate__animated animate__slideInLeft"`
 * and for sliding in front the right it would be the same thing but u chnage `left` to `right`
@@ -31,6 +31,23 @@
 ```
 * you can also put `animation-iteration-count: # ` which allows you to choose how much time it pops up and repeat the actions.
 * so by putting ` animation-iteration-count: infinite;` it just repaet non stop but if you put ` animation-iteration-count: 3;` it does it three time and stop
+
+### 3/23/25
+* I watch this  [VIdeo])(https://www.youtube.com/watch?v=S2KCXKAView) trying out the code they are doing using the animate.css
+* `<button class="animate__animated animate__bounce">Bounce Button</button>` this create a button with the animation bouce when pressed on it
+* animate__repeat-1 (once)
+* animate__repeat-2 (twice)
+* animate__infinite (loops forever)
+   * example code: `<div class="animate__animated animate__pulse animate__infinite">Infinite Pulse</div>`
+* we can trigger animations with Java script
+* we can combine multiple animations together which make things way easier
+   * example: `<div class="animate__animated animate__zoomIn animate__delay-1s">Zoom and Delay</div>`
+
+   
+
+html
+Copy
+Edit
 
 
 <!--
