@@ -42,7 +42,9 @@
 * we can trigger animations with Java script
 * we can combine multiple animations together which make things way easier
    * example: `<div class="animate__animated animate__zoomIn animate__delay-1s">Zoom and Delay</div>`
-
+### 3/24/25
+* i realized that you can also us ejava script to make ur animation alittle better
+* 
    
 
 
