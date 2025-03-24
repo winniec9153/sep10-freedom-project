@@ -17,7 +17,7 @@
 
 
 ### 3/14/25:
-* I watch this  [VIdeo])(https://www.youtube.com/watch?v=S2KCXKAView) trying out the code they are doing using the animate.css
+* I watch this  [VIdeo](https://www.youtube.com/watch?v=S2KCXKAView) trying out the code they are doing using the animate.css
 * through making the `class="animate__animated animate__slideInDown">` there will be a cool animation of the text sliding down
 * you can make it slide in from the left using `class="animate__animated animate__slideInLeft"`
 * and for sliding in front the right it would be the same thing but u chnage `left` to `right`
