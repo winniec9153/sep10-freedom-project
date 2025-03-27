@@ -29,8 +29,6 @@
 }  
     </style>
 ```
-* you can also put `animation-iteration-count: # ` which allows you to choose how much time it pops up and repeat the actions.
-* so by putting ` animation-iteration-count: infinite;` it just repaet non stop but if you put ` animation-iteration-count: 3;` it does it three time and stop
 
 ### 3/23/25
 * I watch this  [VIdeo])(https://www.youtube.com/watch?v=S2KCXKAView) trying out the code they are doing using the animate.css
@@ -44,7 +42,77 @@
    * example: `<div class="animate__animated animate__zoomIn animate__delay-1s">Zoom and Delay</div>`
 ### 3/24/25
 * i realized that you can also us ejava script to make ur animation alittle better
-* 
+* you can also put `animation-iteration-count: # ` which allows you to choose how much time it pops up and repeat the actions.
+* so by putting ` animation-iteration-count: infinite;` it just repaet non stop but if you put ` animation-iteration-count: 3;` it does it three time and stop
+* You can use @keyframe to rotate. keyframe can be used to make a detailed specification you want for an animaton.
+ * you can use it to make something dirve which u can use the code:
+    ``` CSS
+      @keyframes drive {
+           from {
+               transform: translateX(10%);
+            }
+           to {
+               transform: translateX(500%);
+             }
+        }
+      ```  
+       
+* each keyframe can define the CSS properties to apply at that specific point in the animation time line. example:   
+``` CSS
+  @keyframes bounce {
+0%, 20%, 40%, 60%, 80%, 100%{
+tansfrom: translateY(0px);
+}
+  10% {
+      transform: translateY(-200px);
+      background-color: orange;
+  }
+  }
+ 30% {
+      transform: translateY(-150px);
+      background-color: yellow;
+  }
+ 50% {
+      transform: translateY(-100px);
+      background-color: seagreen;
+  }
+ 70% {
+      transform: translateY(-50px);
+      background-color: crimson;
+  }
+ 90% {
+      transform: translateY(-20px);
+      background-color: deeppink;
+  }
+  ```
+   * example code of rotation:
+  ``` CSS
+  @keyframes moveRotate {
+  to {
+      transform: translateX(-80vw) rotate(360deg)scale(5);
+  }
+  }
+  ```
+   * You can control the timeing of this animations forexample:   
+     ``` CSS
+     .box{
+     animation: moveRotate 2s ease infinite alternate-reverse;
+     }
+     ```
+* you can aplly geometric transformation to an elemnt such as moving which is `transform: translateY(400px);`, scaling which is `transform: scale(2);`, rotating which is `transform: rotate(45deg);`, or skewing which is `transform: skew(50deg);`
+   * translate(x,y)
+      * move element horizaontally and vertically
+   * scale(x,y)
+      * scale and element by a specified factor in horizaontal and vertical direction, so it can be wide or long or both
+   * rotate(deg)
+      * roate a element clockwise
+   * skew(x,y)
+* you can also add animation when you hover over an element
+  ``` CSS
+  .box:hover {
+  transfrom: rotate(135deg);
+  } 
+  
    
 
 
