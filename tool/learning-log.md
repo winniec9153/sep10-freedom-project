@@ -31,7 +31,7 @@
 ```
 
 ### 3/23/25
-* I watch this  [VIdeo])(https://www.youtube.com/watch?v=S2KCXKAView) trying out the code they are doing using the animate.css
+* I watch this  [VIdeo](https://www.youtube.com/watch?v=S2KCXKAView) trying out the code they are doing using the animate.css
 * `<button class="animate__animated animate__bounce">Bounce Button</button>` this create a button with the animation bouce when pressed on it
 * animate__repeat-1 (once)
 * animate__repeat-2 (twice)
@@ -44,6 +44,7 @@
 * i realized that you can also us ejava script to make ur animation alittle better
 * you can also put `animation-iteration-count: # ` which allows you to choose how much time it pops up and repeat the actions.
 * so by putting ` animation-iteration-count: infinite;` it just repaet non stop but if you put ` animation-iteration-count: 3;` it does it three time and stop
+* I watch this viedo [Keyframe animation.css](https://www.youtube.com/watch?v=Bhj4miRkSOc)
 * You can use @keyframe to rotate. keyframe can be used to make a detailed specification you want for an animaton.
  * you can use it to make something dirve which u can use the code:
     ``` CSS
@@ -56,7 +57,7 @@
              }
         }
       ```  
-       
+
 * each keyframe can define the CSS properties to apply at that specific point in the animation time line. example:   
 ``` CSS
   @keyframes bounce {
