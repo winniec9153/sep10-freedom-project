@@ -114,7 +114,25 @@ tansfrom: translateY(0px);
   transfrom: rotate(135deg);
   } 
   
-   
+ ### 4/6/25 
+ I watched [Master CSS Animation Property in 11 Minutes [Full Tutorial] 🚀](https://www.youtube.com/watch?v=Bhj4miRkSOc)
+ * animite duration can be specified in milisecond or seconds.
+ * animater iteration count determined how many time the animation repeats its action
+ * animation direction defiend whether the animation will run normal or in reverse
+    * example code (css):
+     `animation-direction: alternate;` or `animation-direction: alternate-reverse;`
+* Animation fill mode will defined how the animation will apply the styles from out keyframe  before and after its execution.
+   * Example code : `animtion-fill-mode: both;`
+* Animtion play state allows you to puase and resume
+  * so forexample if you make it to running `animation-play-state: running; ` it will be running but if u want to pause the animation through hovering u can add a hover state.
+     * code for hover state when having a box
+       ``` CSS
+       .box:hover{
+       animation-play-state: paused;
+       }
+       ```
+       So by doing this the animation will pause when you hover your arrow over the "box" which i Used for my animation.
+       
 
 
 
