@@ -5,7 +5,10 @@
 * [Desktop](https://wireframe.cc/fxaypF)
 
 ## Colors
-* `#ABC123`
+* `#F1EFEC`
+* `#D4C9BE`
+* `#123458`
+* `#030303`
 
 ## Fonts
 * [Lora](https://fonts.google.com/specimen/Lora)
