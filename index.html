@@ -1,29 +1,232 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Music Production</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
-            
-        </style>
-        
-        <title>Title</title>
-    </head>
-    <body>
-        <!-- HTML -->
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
-        <script>
-            // JS
-            
-            
-        </script>
-    </body>
+    <style>
+
+    .row {
+        display: flex;
+        justify-content: flex-start; /* Align to the left */
+    }
+
+    .card-shift-right {
+        margin-left: auto; /* Push the card to the right */
+    }
+
+    .ranking-list {
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px; /* Increased padding for more space inside the box */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    font-size: 1.2rem; /* Larger font size */
+    margin-top: 20px; /* More space between the card and the ranking list */
+    margin-bottom: 30px; /* Increased bottom margin to separate from "Stay Updated" section */
+}
+
+.ranking-list h6 {
+    font-weight: bold;
+    margin-bottom: 15px; /* More space between title and list */
+    font-size: 1.5rem; /* Increase the title size */
+}
+
+.ranking-list ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0;
+    margin-top: 10px; /* Add some space at the top */
+}
+
+.ranking-list ul li {
+    margin-bottom: 15px; /* Add more space between list items */
+    font-size: 1.2rem; /* Increase font size for list items */
+}
+.card {
+    max-height: 350px; /* Set max-height to control vertical size */
+    width: 100%;  /* Ensure cards fill the column */
+    margin-bottom: 15px; /* Space between cards */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.card-body {
+    padding: 10px; /* Reduced padding inside cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly inside */
+}
+
+.card-body .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px; /* Add space between title and text */
+}
+
+.card-body .card-text {
+    font-size: 1rem;
+    flex-grow: 1; /* Allow the text to grow, but not force the card to expand */
+}
+
+.ranking-list {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.ranking-list h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ranking-list ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+footer {
+            clear: both;
+            position: relative;
+            z-index: 1;
+        }
+
+
+    </style>
+
+
+</head>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">Music Production</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#context">Context</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#software">Music Software</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hardware">Music Hardware</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Music Production</h1>
+                            <p class="lead fw-normal text-white-50 mb-4">An informative website talkking about music software,hardware and new innovations that may benefit the music production world.</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                </div>
+            </div>
+        </header>
+        <!-- Context Section -->
+
+
+        <section id="context" class="py-5 bg-light">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-12 mb-4"><h2 class="fw-bolder mb-0">Context</h2></div>
+                    <div class="col-12">
+                        <div class="row gx-5 row-cols-1 row-cols-md-2">
+                            <!--- card --->
+                            <div class=" col h-100 card-shift-right">
+                                <div class="card">
+
+
+
+                                    <div class="card-body ">
+                                        This website is used to inform others about the software and hardware in the Music industry. With different apps and websites like, garage band, Ableton, soundtrap and many more. People can listen to different types of music through streaming apps like spotify, amazon music, youtube music, apple music, or sound cloud. There are many music streaming services out there. These music productions can be made through different types of hardware like Pc, instrument, monitors, microphone, and etc. These pieces of hardware represent just a glimpse into the vast world of music equipment beyond the mainstream. They can inspire creativity and enhance your music-making process.
+
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Music Software Section -->
+        <section id="software" class="py-5">
+            <div class="container">
+                <h2 class="fw-bolder text-center mb-4">Music Software</h2>
+                <div class="row justify-content-center g-4">
+                    <!-- First Card (Ableton Live) -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Ableton Live</h5>
+                                <p class="card-text">A powerful DAW known for live performance and loop-based music creation.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Second Card (GarageBand) -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">GarageBand</h5>
+                                <p class="card-text">Apple's easy-to-use DAW perfect for beginners and mobile creators.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Third Card (Soundtrap) -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Soundtrap</h5>
+                                <p class="card-text">A collaborative online DAW ideal for remote music making and podcasts.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                 <!-- Ranking List Below Only the Left Card -->
+                 <div class="ranking-list mt-3">
+                    <h6>Rating Scale</h6>
+                    <ul>
+                        <li>1. Ableton is most well-known, especially in professional music production and live performance.</li>
+                        <li>2. GarageBand - Medium well-known, popular among beginners and casual music creators, especially on Apple devices.</li>
+                        <li>3. Soundtrap - Not as well-known as the other two, though gaining popularity for its online collaboration features.</li>
+                    </ul>
+                </div>
+                <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+            </div>
+        </section>
+
+
+        <!-- Footer Section Below the Content with Space -->
+        <footer class="bg-dark text-white py-4 mt-5">
+            <div class="container text-center">
+              <p class="mb-0">© 2025 Your Website. All rights reserved.</p>
+            </div>
+          </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

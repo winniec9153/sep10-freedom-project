@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+form input {
+    border-radius: 0.5rem;
+}
+
+form button {
+    border-radius: 0.5rem;
+}
+
