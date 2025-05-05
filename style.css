@@ -22,4 +22,6 @@ form input {
 form button {
     border-radius: 0.5rem;
 }
-
+body {
+    padding-top: 70px; /* adjust based on your navbar height */
+  }
