@@ -58,8 +58,9 @@
 | Name | Glows | Grows |
 | -------- | ------- | ------- |
 |  Jintian Gao | I like the responsiveness of the website.  | The Context responsiveness is broken, if that is fixed the website would be almost perfect as the "Get started" and "Learn More" buttons doesn't do antything.
-|   |   |
-|   |   |
+| Gabriel  | I love how clean and smooth everything is | More context or information about how/why things are being rated and more information in some of the cards since some of  them are short
+| Derek | I like how simple the website looks and how the buttons on the navbar work. | You should make the caroussel show up on the smaller screen size since it dissapears. |
+| Darren Li  | I like how your website is organized and how the background has different colors in different sections to seperate the different parts.  | On larger screens some parts like the rating scales only take up half the width even though there is nothing next to it, they should take up the full width instead to help save space. The buttons for getting started and learn more around the top of the webpage don't work.
 |   |   |
 |   |   |
 |   |   |
