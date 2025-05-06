@@ -53,15 +53,15 @@
 
 
 
-<!-- DO NOT USE THIS YET
+
 
 | Name | Glows | Grows |
 | -------- | ------- | ------- |
-|   |   |
+|  Jintian Gao | I like the responsiveness of the website.  | The Context responsiveness is broken, if that is fixed the website would be almost perfect as the "Get started" and "Learn More" buttons doesn't do antything.
 |   |   |
 |   |   |
 |   |   |
 |   |   |
 |   |   |
 
--->
+
