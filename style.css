@@ -12,9 +12,27 @@ h2 {
 
 .card-img-top {
     object-fit: cover;
-    height: 200px;
-}
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+  }
+  @media (max-width: 1200px) {
+    .card-img-top {
+      max-height: 250px;
+    }
+  }
 
+  @media (max-width: 768px) {
+    .card-img-top {
+      max-height: 180px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card-img-top {
+      max-height: 150px;
+    }
+  }
 form input {
     border-radius: 0.5rem;
 }
@@ -33,4 +51,21 @@ body {
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #carouselExampleCaptions {
+    width: 600px;  /* Set the width of the carousel */
+    height: 250px;  /* Set the height of the carousel */
+    margin: auto;   /* Center the carousel */
+}
+
+.carousel-inner img {
+    width: 100%;    /* Ensure the image takes up the full width of the container */
+    height: 100%;   /* Ensure the image takes up the full height of the container */
+    object-fit: cover;  /* Preserve aspect ratio and fill the container */
 }
