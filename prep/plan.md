@@ -44,6 +44,8 @@
 
 #### Beyond MVP
 
+* make everyhting alittle more bigger so people can see everything better.
+* Add more colors so some stuff stand out more
 * add icons
 
 
