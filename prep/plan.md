@@ -50,8 +50,9 @@
 
 
 
-
-
+#### last-minute revisions 
+*  Add more colors to my website as my website is alittle to plain, Having barley and colors
+*  make it stand out more by maybe changing the font
 
 
 
