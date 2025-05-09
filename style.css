@@ -53,9 +53,7 @@ form button {
   box-sizing: border-box;
 }
 
-/* Media Queries */
 
-/* Medium Screens (≤ 768px) */
 @media (max-width: 768px) {
   body {
     font-size: 15px;
