@@ -26,13 +26,52 @@ h2 {
     .card-img-top {
       max-height: 180px;
     }
+       body {
+      font-size: 15px;
+    }
+
+    img {
+      max-width: 80%;
+    }
+
+    h1 {
+      font-size: 1.8em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 0.95em;
+    }
   }
 
   @media (max-width: 480px) {
     .card-img-top {
       max-height: 150px;
     }
+  body {
+      font-size: 14px;
+    }
+
+    img {
+      max-width: 70%;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1.2em;
+    }
+
+    p {
+      font-size: 0.9em;
+    }
   }
+
 form input {
     border-radius: 0.5rem;
 }
@@ -41,31 +80,23 @@ form button {
     border-radius: 0.5rem;
 }
 body {
-    padding-top: 70px; /* adjust based on your navbar height */
+    padding-top: 70px;
   }
-  .ranking-list {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 1.2rem;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
+
 
 .container {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
   }
-  #carouselExampleCaptions {
-    width: 600px;  /* Set the width of the carousel */
-    height: 250px;  /* Set the height of the carousel */
-    margin: auto;   /* Center the carousel */
-}
 
-.carousel-inner img {
-    width: 100%;    /* Ensure the image takes up the full width of the container */
-    height: 100%;   /* Ensure the image takes up the full height of the container */
-    object-fit: cover;  /* Preserve aspect ratio and fill the container */
+
+
+.ranking-list {
+  margin-top: 20px;
+  padding: 20px; /* Padding for inner spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  font-size: 1rem;
+  background-color: #ffffff !important; /* White background with !important */
 }
