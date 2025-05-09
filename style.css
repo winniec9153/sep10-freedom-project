@@ -1,102 +1,110 @@
+/* Global Body Styles */
 body {
-    font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  padding-top: 70px;
+  background: linear-gradient(to bottom, #1a1a2e, #16213e);
+  color: #ffffff;
+}
+
+/* Headings */
+h1 {
+  font-size: 2em;
 }
 
 h2 {
-    color: #343a40;
+  font-size: 1.8em;
+  color: #343a40;
 }
 
 .card-title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
+/* Card Image */
 .card-img-top {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    max-height: 250px;
-  }
-  @media (max-width: 1200px) {
-    .card-img-top {
-      max-height: 250px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .card-img-top {
-      max-height: 180px;
-    }
-       body {
-      font-size: 15px;
-    }
-
-    img {
-      max-width: 80%;
-    }
-
-    h1 {
-      font-size: 1.8em;
-    }
-
-    h2 {
-      font-size: 1.5em;
-    }
-
-    p {
-      font-size: 0.95em;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .card-img-top {
-      max-height: 150px;
-    }
-  body {
-      font-size: 14px;
-    }
-
-    img {
-      max-width: 70%;
-    }
-
-    h1 {
-      font-size: 1.5em;
-    }
-
-    h2 {
-      font-size: 1.2em;
-    }
-
-    p {
-      font-size: 0.9em;
-    }
-  }
-
-form input {
-    border-radius: 0.5rem;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 250px;
 }
 
-form button {
-    border-radius: 0.5rem;
-}
-body {
-    padding-top: 70px;
-  }
-
-
-.container {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-
-
+/* Ranking List Section */
 .ranking-list {
   margin-top: 20px;
-  padding: 20px; /* Padding for inner spacing */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
-  background-color: #ffffff !important; /* White background with !important */
+  background-color: #ffffff !important;
+  color: #000000;
+}
+
+/* Form Styles */
+form input,
+form button {
+  border-radius: 0.5rem;
+}
+
+/* Container Fix */
+.container {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Media Queries */
+
+/* Medium Screens (≤ 768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+
+  img {
+    max-width: 80%;
+  }
+
+  .card-img-top {
+    max-height: 180px;
+  }
+}
+
+/* Small Screens (≤ 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  img {
+    max-width: 70%;
+  }
+
+  .card-img-top {
+    max-height: 150px;
+  }
 }
