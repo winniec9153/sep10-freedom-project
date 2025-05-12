@@ -1,16 +1,19 @@
 # Presentation Plan
 
 ## Hook
-* 
+* intesting instrument that was once used for music production
 
 ## Product
-* 
+* how this product work and what it does
 
 ## Process
-* 
+* MVP(basic)
+* beyond MVP
 
 ## Conclusion
-* 
+*  [URL to project]
+*  the importance of music in the world
+*  
 
 <!-- EXAMPLE
 
