@@ -1,16 +1,18 @@
-/* Global Body Styles */
 body {
   font-family: 'Segoe UI', sans-serif;
-  font-size: 16px;
+  background: #d0eaf7 !important;
+  color: #333;
   padding-top: 70px;
-  background: linear-gradient(to bottom, #1a1a2e, #16213e);
-  color: #ffffff;
 }
 
-/* Headings */
 h1 {
   font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
 }
+ .nav-link:hover {
+             color: #8A7185 !important;
+           }
 
 h2 {
   font-size: 1.8em;
@@ -20,13 +22,19 @@ h2 {
 .card-title {
   font-weight: bold;
 }
+ .img1 {
+            width: 100%;
+            max-width: 600px; /* Default max-width */
+            height: auto;
+        }
 
-/* Card Image */
-.card-img-top {
-  object-fit: cover;
+
+/* Carousel Styles */
+#carouselExampleCaptions {
   width: 100%;
-  height: auto;
-  max-height: 250px;
+  max-width: 600px; /* Carousel width on larger screens */
+  height: 250px; /* Fixed height for larger screens */
+  margin: auto;
 }
 
 /* Ranking List Section */
@@ -52,35 +60,87 @@ form button {
   padding: 10px;
   box-sizing: border-box;
 }
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* This ensures the images cover the entire carousel container */
+}.carousel-inner {
+  width: 100%;
+  height: auto;  /* Allow height to adjust based on image aspect ratio */
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;  /* Add a black background for navigation buttons */
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Default max-width for larger screens */
+}
 
+/* Responsive Styles */
 
-@media (max-width: 768px) {
-  body {
-    font-size: 15px;
+/* For 1024px and larger screens */
+@media (min-width: 1024px) {
+  #carouselExampleCaptions {
+    width: 600px;
+    height: 250px;
   }
 
-  h1 {
-    font-size: 1.8em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  p {
-    font-size: 0.95em;
-  }
-
-  img {
-    max-width: 80%;
-  }
-
-  .card-img-top {
-    max-height: 180px;
+  .carousel-item img {
+    width: 600px;
+    height: 250px;
+    object-fit: cover; /* Ensures the image fits the container without distortion */
   }
 }
 
-/* Small Screens (≤ 480px) */
+/* For 1023px to 768px screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+  #carouselExampleCaptions {
+    width: 516px;
+    height: 215px;
+  }
+
+   .carousel-item img {
+    max-width: 516px; /* Adjust for mid-sized screens */
+    height: 215px;    /* Adjust height */
+  }
+    .img1 {
+                max-width: 516px;
+                height: auto;
+    }
+    .img-fluid {
+        max-width: 516px;
+    }
+
+}
+
+/* For 767px to 320px screens */
+@media (max-width: 767px) {
+  #carouselExampleCaptions {
+    width: 400px;
+    height: 200px;
+  }
+   .img1 {
+                max-width: 400px;
+                height: auto;
+            }
+ .img-fluid {
+        max-width: 400px;
+    }
+
+  .carousel-item img {
+    max-width: 400px; /* Smaller screen adjustment */
+    height: 200px;    /* Adjust height */
+    object-fit: cover; /* Ensures the image fits the container without distortion */
+  }
+}
+
 @media (max-width: 480px) {
   body {
     font-size: 14px;
@@ -105,4 +165,77 @@ form button {
   .card-img-top {
     max-height: 150px;
   }
+
+  #carouselExampleCaptions {
+    max-width: 100%;
+    height: auto; /* Adjust height to maintain aspect ratio */
+  }
+
+ .carousel-item img {
+    max-width: 100%; /* Full width for very small screens */
+    height: auto;    /* Auto height to maintain aspect ratio */
+  }
+}
+
+/* Additional Styling */
+img {
+  height: auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-shift-right {
+  margin-left: auto;
+}
+
+.ranking-list h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.ranking-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.ranking-list ul li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.card {
+  max-height: 350px;
+  width: 100%;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-body .card-text {
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  z-index: 1;
 }
