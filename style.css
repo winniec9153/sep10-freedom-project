@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #d0eaf7 !important;
+  background: white !important;
   color: #333;
   padding-top: 70px;
 }
@@ -24,16 +24,16 @@ h2 {
 }
  .img1 {
             width: 100%;
-            max-width: 600px; /* Default max-width */
+            max-width: 600px;
             height: auto;
         }
 
 
-/* Carousel Styles */
+
 #carouselExampleCaptions {
   width: 100%;
-  max-width: 600px; /* Carousel width on larger screens */
-  height: 250px; /* Fixed height for larger screens */
+  max-width: 600px;
+  height: 250px;
   margin: auto;
 }
 
@@ -48,13 +48,13 @@ h2 {
   color: #000000;
 }
 
-/* Form Styles */
+
 form input,
 form button {
   border-radius: 0.5rem;
 }
 
-/* Container Fix */
+
 .container {
   width: 100%;
   padding: 10px;
@@ -63,10 +63,10 @@ form button {
 .carousel-item img {
     width: 100%;
     height: auto;
-    object-fit: contain; /* This ensures the images cover the entire carousel container */
+    object-fit: contain;
 }.carousel-inner {
   width: 100%;
-  height: auto;  /* Allow height to adjust based on image aspect ratio */
+  height: auto;
 }
 .carousel-item {
   display: flex;
@@ -75,17 +75,17 @@ form button {
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: black;  /* Add a black background for navigation buttons */
+  background-color: black;
 }
 .img-fluid {
     width: 100%;
     height: auto;
-    max-width: 600px; /* Default max-width for larger screens */
+    max-width: 600px;
 }
 
-/* Responsive Styles */
 
-/* For 1024px and larger screens */
+
+
 @media (min-width: 1024px) {
   #carouselExampleCaptions {
     width: 600px;
@@ -95,11 +95,9 @@ form button {
   .carousel-item img {
     width: 600px;
     height: 250px;
-    object-fit: cover; /* Ensures the image fits the container without distortion */
+    object-fit: cover;
   }
 }
-
-/* For 1023px to 768px screens */
 @media (max-width: 1023px) and (min-width: 768px) {
   #carouselExampleCaptions {
     width: 516px;
@@ -107,8 +105,8 @@ form button {
   }
 
    .carousel-item img {
-    max-width: 516px; /* Adjust for mid-sized screens */
-    height: 215px;    /* Adjust height */
+    max-width: 516px;
+    height: 215px;
   }
     .img1 {
                 max-width: 516px;
@@ -120,7 +118,6 @@ form button {
 
 }
 
-/* For 767px to 320px screens */
 @media (max-width: 767px) {
   #carouselExampleCaptions {
     width: 400px;
@@ -135,9 +132,9 @@ form button {
     }
 
   .carousel-item img {
-    max-width: 400px; /* Smaller screen adjustment */
-    height: 200px;    /* Adjust height */
-    object-fit: cover; /* Ensures the image fits the container without distortion */
+    max-width: 400px;
+    height: 200px;
+    object-fit: cover;
   }
 }
 
@@ -168,16 +165,14 @@ form button {
 
   #carouselExampleCaptions {
     max-width: 100%;
-    height: auto; /* Adjust height to maintain aspect ratio */
+    height: auto;
   }
 
  .carousel-item img {
-    max-width: 100%; /* Full width for very small screens */
-    height: auto;    /* Auto height to maintain aspect ratio */
+    max-width: 100%;
+    height: auto;
   }
 }
-
-/* Additional Styling */
 img {
   height: auto;
   width: 100%;
