@@ -2,18 +2,25 @@
 
 ## Hook
 * intesting instrument that was once used for music production
+* Neanthal flute, one of the oldest instruments that was used in the early civilization, dating back to 60,000 years ago. It was a  treasure of global significance, creating one of the starting points for music.
 
 ## Product
 * how this product work and what it does
+* show interactiveness and responsiveness
+* https://winniec9153.github.io/sep10-freedom-project/index.html#context 
 
 ## Process
-* MVP(basic)
-* beyond MVP
+* part a software
+* part b hardware
+* innovative design
+*  how i made my wireframe
+* how i used my tool on my wesbite
+* making my website reponsive.
 
 ## Conclusion
 *  [URL to project]
 *  the importance of music in the world
-*  
+*  take aways
 
 <!-- EXAMPLE
 
