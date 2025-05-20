@@ -1,18 +1,18 @@
 # SEP10 Freedom Project
-by **X**
+by **Winnie Chen**
 
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for SEP10 is a year-long project all about making a website that informs the viewer of the current and future innovations in the topic of my choosing.
 
-For my project, I chose the topic of **X**. 
+For my project, I chose the topic of **Music Production**. 
 
-I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **X** in order to help me make my website.
+I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **Animation.CSS** in order to help me make my website.
 
 ## Links
 
-[Product]()
+[Product](https://winniec9153.github.io/sep10-freedom-project/index.html)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1tOF5urT0LOsIHtkWUp56a8_zF3IWzCgb1VtYLtUnOvY/edit?slide=id.g35a01fbbaa6_0_4#slide=id.g35a01fbbaa6_0_4)
 
 ## Implications
 ##### PROS
