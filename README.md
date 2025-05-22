@@ -6,7 +6,7 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 
 For my project, I chose the topic of **Music Production**. 
 
-I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **Animation.CSS** in order to help me make my website.
+I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **Animate.CSS** in order to help me make my website.
 
 ## Links
 
@@ -16,9 +16,9 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **A
 
 ## Implications
 ##### PROS
-* 
+* My project of Music Production have a positve impact on society specifically, culture, relationships, and individuals. Music production allows individuals and groups to express themselves, with a blend of culture, arts, and technology into music. These music can be used to express out feelings, turning inspirations into sounds. For my project I created this innovation of a Mood Adapt Music player which is an innovation that can be used to express how you feel through music. For example when you are sad, happy or calm, this device is able to pick up how you feel and turn it into music based on what you feel. So my project of Music Production have a positive impact on society.
 ##### CONS
-* 
+* My 
 
 
 ## Blog
