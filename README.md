@@ -18,7 +18,7 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **A
 ##### PROS
 * My project of **Music Production** has a positive impact on _society_, specifically _culture_, _relationships_, and _individuals_.
     * Music production allows individuals and groups to express themselves, with a blend of culture, arts, and technology into music. These music pieces can be used to express our feelings, turning inspirations into sounds. For my project, I created this innovation of a Mood Adapt Music Player, which is an innovation that can be used to express how you feel through music. For example, when you are sad, happy, or calm, this device is able to pick up how you feel and turn it into music based on what you feel. 
-* My project of Music Production has a positive impact on economic jobs, finance, and infrastructure:
+* My project of **Music Production** has a positive impact on _economic jobs_, _finance_, and _infrastructure_:
     * Creates more jobs for individuals, so music production supports many jobs like: producers, sound engineers, songwriters, studio technicians, marketers, and more.
     * It also fuels the freelance world, most certainly in the online space like YouTube, Instagram, and other streaming platforms.
     * Gains personal income, so successful producers can earn a good amount of money from these.
