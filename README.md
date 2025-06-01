@@ -2,11 +2,17 @@
 by **Winnie Chen**
 
 ## Context
-I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for SEP10 is a year-long project all about making a website that informs the viewer of the current and future innovations in the topic of my choosing.
-
-For my project, I chose the topic of **Music Production**. 
-
-I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **Animate.CSS** in order to help me make my website.
+I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for SEP10 is a year-long project all about making a website that informs the viewer of the current and future innovations in the topic of my choosing. For my project, I chose the topic of **Music Production** because I am curious by how all these great music I listen to get created. In this freedom project we have to create an innovation in which i created the Mood Adapt Music Player which is a cool device which can give you a personalized music recomendation based on your current mood and speech. So in order to create this website I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **Animate.CSS** in order to help me make my website better. I kept all my notes of my progress of studying this tool in my learning log.
+### Step for creating this website:
+1. Think of a possible topic
+2. Research about this topic which include software & hardware(Music prodction)
+3. Create a possible innovation for the Music prodction world
+4. Choose a tool which in my case I choose [**Animate.css**](https://animate.style/)
+5. Tinker with tool
+6. Create wireframe for my wesbite(layout)
+7. Create website(MVP/Beyond MVP)
+8. Presentation(in class presntation and EXPO Elevator pitch)
+   
 
 ## Links
 
