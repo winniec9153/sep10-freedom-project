@@ -16,10 +16,19 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **A
 
 ## Implications
 ##### PROS
-* My project of Music Production have a positve impact on society specifically, culture, relationships, and individuals. Music production allows individuals and groups to express themselves, with a blend of culture, arts, and technology into music. These music can be used to express out feelings, turning inspirations into sounds. For my project I created this innovation of a Mood Adapt Music player which is an innovation that can be used to express how you feel through music. For example when you are sad, happy or calm, this device is able to pick up how you feel and turn it into music based on what you feel. So my project of Music Production have a positive impact on society.
-##### CONS
-* My 
+* My project of Music Production has a positive impact on society, specifically culture, relationships, and individuals.
+    * Music production allows individuals and groups to express themselves, with a blend of culture, arts, and technology into music. These music pieces can be used to express our feelings, turning inspirations into sounds. For my project, I created this innovation of a Mood Adapt Music Player, which is an innovation that can be used to express how you feel through music. For example, when you are sad, happy, or calm, this device is able to pick up how you feel and turn it into music based on what you feel. 
+* My project of Music Production has a positive impact on economic jobs, finance, and infrastructure:
+    * Creates more jobs for individuals, so music production supports many jobs like: producers, sound engineers, songwriters, studio technicians, marketers, and more.
+    * It also fuels the freelance world, most certainly in the online space like YouTube, Instagram, and other streaming platforms.
+    * Gains personal income, so successful producers can earn a good amount of money from these.
+    * Attracts investors through deals.
+    * Drives creation of recording studios and pushes growth on online platforms.
 
+##### CONS
+* My project won't benefit the global/environment:
+    * Lots of energy consumption, as in the music production world, computers, software, and data storage are being used frequently, so it consumes a lot of electricity.
+    * It creates a high carbon footprint, as large concerts are being in session.
 
 ## Blog
 Below you will find my blog about how I made my project.
